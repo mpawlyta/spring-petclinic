@@ -12,6 +12,14 @@
     <tag>spring-petclinic-3.2.0</tag>
   </scm>
 
+    <distributionManagement>
+      <repository>
+        <id>gh</id>
+        <name>github</name>
+        <url>https://maven.pkg.github.com/mpawlyta/spring-petclinic</url>
+      </repository>
+  </distributionManagement>
+
 
   <parent>
     <groupId>org.springframework.boot</groupId>
